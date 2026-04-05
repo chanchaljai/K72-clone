@@ -2,7 +2,7 @@ import React from 'react'
 
 const Agency = () => {
   return (
-    <div>Agency</div>
+    <div>Agency Page</div>
   )
 }
 
