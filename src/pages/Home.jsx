@@ -5,12 +5,13 @@ import HomeBottomText from "../components/home/HomeBottomText";
 
 const Home = () => {
   return (
-    <div>
-      <div className="w-screen h-screen fixed">
+    <div class
+      className="h-screen w-screen">
+      <div className="w-screen h-screen fixed top-0 left-0">
         <Video />
       </div>
       <div className="h-screen w-screen relative">
-        <h1>HomeTopText</h1>
+        <div><HomeTopText /></div>
         <h1>HomeBottomText</h1>
       </div>
 
