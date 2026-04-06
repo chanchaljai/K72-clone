@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const HomeBottomText = () => {
   return (
-    <div className="flex  justify-center items-center gap-20 text-center mb-5">
-      <Link className='text-[6vw] uppercase font-bold border-white border-4 rounded-full hover:text-green-500 hover:border-green-500' to='/work'>work</Link>
-      <Link className='text-[6vw] uppercase font-bold border-white border-4 rounded-full  hover:text-green-500 hover:border-green-500' to='/agency'>agency</Link>
+    <div className="flex gap-20 justify-center text-center">
+      <Link className='text-[6vw] uppercase font-bold border-white border-4 rounded-full hover:text-lime-300 hover:border-lime-300' to='/work'>work</Link>
+      <Link className='text-[6vw] uppercase font-bold border-white border-4 rounded-full  hover:text-lime-300 hover:border-lime-300' to='/agency'>agency</Link>
     </div>
   )
 }
